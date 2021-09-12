@@ -15,7 +15,6 @@
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
-  /* выше установили ограничения для секции */
   background-color: #f2f2f2;
   position: relative;
   display: flex;
@@ -92,13 +91,6 @@
 }
 
 /*     ***************     секция проблемы      ***************      */
-
-.content {
-  min-width: 1100px;
-  max-width: 1600px;
-  margin: 0 auto;
-  font-family: 'Helvetica Neue', Arial, sans-serif;
-}
 
 .description {
   display: flex;
@@ -267,7 +259,6 @@
   z-index: 0;
   width: 867px;
   height: 637px;
-  z-index: 0;
 }
 
 .feynman__link {
@@ -285,7 +276,6 @@
 
 .kaufman {
   background-color: #1f1f1f;
-  color:white;
   display: flex;
   flex-direction: column;
   overflow: hidden;
@@ -307,6 +297,7 @@
   font-size: 60px;
   font-weight: bolder;
   margin: 90px auto 0;
+  color:white; 
 }
 
 .kaufman-subtitle_theme_dark {
@@ -323,6 +314,7 @@
   font-size: 24px;
   font-weight: normal;
   margin: 20px auto 80px;
+  color:white; 
 }
 
 .kaufman__triangle {
@@ -355,6 +347,7 @@
   font-size: 24px;
   font-weight: bolder;
   margin: 20px 0 0;
+  color:white; 
 }
 
 .table__text_theme_dark {
@@ -362,18 +355,15 @@
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
+  color:white; 
 }
 
 /*      ***************       футер        ***************      */
 
 .footer {
-  min-width: 1100px;
-  max-width: 1600px;
-  font-family: 'Helvetica Neue', Arial, sans-serif;
   box-sizing: border-box;
   min-height: 350px;
   background-color: #1f1f1f;
-  color:white; 
   margin: 0 auto;
   display: flex;
   flex-direction: row;
@@ -401,7 +391,6 @@
   display: flex;
   width: 183px;
   height: 35px;
-
 }
 
 .footer__author {
@@ -409,6 +398,7 @@
   font-size: 18px;
   font-weight: normal;
   margin: 18px 0;
+  color:white; 
 }
 
 .footer__column_content_info {
@@ -421,6 +411,7 @@
   line-height: 30px;
   font-size: 18px;
   font-weight: bolder;
+  color:white; 
 }
 
 .footer__column_content_social {
@@ -437,6 +428,8 @@
 
 .social-icon__image {
   margin-right: 10px;
+  width: 16px;
+  height: 16px;
 }
 
 .column-link {
@@ -444,14 +437,10 @@
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
+  color:white; 
 }
 
 .social-link {
   text-decoration: none;
   color: white;
-}
-
-.social-icon__image {
-  width: 16px;
-  height: 16px;
 }
