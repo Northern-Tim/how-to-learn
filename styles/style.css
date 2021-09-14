@@ -243,7 +243,7 @@ margin-bottom: 0;
   top: 50%;
   z-index: 2;
   text-decoration: none;
-  color: #2f80ed ;
+  color: #2f80ed;
 }
 
 /*     ***************     секция кауфман     ***************       */
@@ -258,7 +258,7 @@ margin-bottom: 0;
 }
 
 .section-title_theme_dark {
-  width: 60%;  
+  width: 60%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -381,7 +381,7 @@ margin-bottom: 0;
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
-  color:white; 
+  color:white;
   display: flex;
   text-decoration: none;
   align-items: center;
