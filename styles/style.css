@@ -37,8 +37,6 @@
 }
 
 .header__title {
-  margin-block-start :0;
-  margin-block-end: 0;
   display: flex;
   line-height: 96px;
   font-size: 102px;
@@ -49,8 +47,7 @@
 }
 
 .header__subtitle {
-  margin-block-start :0;
-  margin-block-end: 0;
+  margin: 0;
   z-index: 2;
   line-height: 25px;
   font-size: 18px;
@@ -98,7 +95,7 @@
   justify-content: space-between;
 }
 
-.brief_heading {
+.two-columns__brief {
   width: 175px;
   margin: 0;
   display: flex;
@@ -258,7 +255,6 @@ margin-bottom: 0;
 }
 
 .section-title_theme_dark {
-  width: 60%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -273,7 +269,6 @@ margin-bottom: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 60%;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
@@ -283,6 +278,7 @@ margin-bottom: 0;
 
 .kaufman__triangle {
   background-image: url(../images/kaufman-triangle.svg);
+  background-size: 877px 877px;
   width: 877px;
   height: 877px;
   position: absolute;
@@ -305,7 +301,6 @@ margin-bottom: 0;
 }
 
 .table__text_theme_dark {
-  margin-block-start :0;
   margin-block-end: 0;
   color:white; 
 }
