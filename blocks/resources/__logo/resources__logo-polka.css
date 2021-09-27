@@ -1,0 +1,9 @@
+.resources__logo-polka {
+  background-image: url(../../../images/resources-polka.svg);
+  transition: all .3s linear; 
+  opacity:1;
+}
+
+.resources__logo-polka:hover {
+  opacity:0.5;
+}
